@@ -1,5 +1,8 @@
 import { Meteor } from 'meteor/meteor';
+import dotenv from "dotenv";
 
 Meteor.startup(() => {
-  // code to run on server at startup
+    dotenv.config({
+        path: Assets.absoluteFilePath('.env'),
+    });
 });
