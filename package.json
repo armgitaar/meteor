@@ -12,9 +12,6 @@
     "jquery": "^3.5.1",
     "meteor-node-stubs": "^1.0.1"
   },
-  "devDependencies": {
-    "dotenv": "^8.2.0"
-  },
   "meteor": {
     "mainModule": {
       "client": "client/main.js",
